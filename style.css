@@ -1150,3 +1150,69 @@ footer h1 {
 .foot-logo:hover {
   opacity: 0.6;
 }
+/* 
+.Section__background {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform-origin: var(--sectionTransformOrigin);
+  transform: skewY(var(--sectionAngle));
+  background: var(--backgroundColor);
+  overflow: hidden;
+}
+
+.Guides__container {
+  display: grid;
+  grid: 1fr / repeat(var(--columnCountMax), 1fr);
+  position: relative;
+  max-width: var(--layoutWidth);
+  height: 100%;
+  margin: 0 auto;
+}
+
+.Guides {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0 var(--columnPaddingNormal);
+  pointer-events: none;
+}
+
+.Guides__guide {
+  width: 1px;
+  background: linear-gradient(
+    180deg,
+    var(--guideDashedColor),
+    var(--guideDashedColor) 50%,
+    transparent 0,
+    transparent
+  );
+  background-size: 1px 8px;
+} */
+
+/* potential div slicing */
+/* div{
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+div:before{
+  content:'';
+  position:absolute;
+  top:0; right:0;
+  width:100%; height:100%;
+  background-color: rgba(90, 74, 199, .8);
+  border-right:50px solid rgba(173, 96, 223, .8);
+  
+  -webkit-transform-origin:100% 100%;
+  -ms-transform-origin:100% 100%;
+  transform-origin:100% 100%;
+  
+  -webkit-transform:skewX(30deg);
+  -ms-transform:skewX(30deg);
+  transform:skewX(30deg);
+} */
